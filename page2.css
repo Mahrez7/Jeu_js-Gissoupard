@@ -1,0 +1,89 @@
+
+body
+{
+	color: white;
+	background-image: url(picture/will3.jpg);
+	font-size: 1.7em;
+}
+
+.bouton
+{
+	display: flex;
+	margin-top: 8px;
+	margin-left: 146px;
+}
+
+.nom
+{
+	width: 200px;
+	height: 30px;
+	font-size: 0.7em;
+}
+
+.inscrire
+{
+	margin-left: 970px;
+	width: 140px;
+	height: 35px;
+	font-size: 0.7em;
+	background-color: rgb(124, 249, 0);
+}
+.prenoms
+{
+	width: 300px;
+	height: 30px;
+	font-size: 0.7em;
+}
+
+.Pseudo
+{
+	width: 200px;
+	height: 30px;
+	font-size: 0.7em;
+}
+
+.password
+{
+	width: 200px;
+	height: 30px;
+	font-size: 0.7em;
+}
+
+#pays
+{
+	width: 130px;
+	height: 30px;
+	font-size: 0.7em;
+}
+
+.aff
+{
+	font-size: 0.6em;
+}
+
+
+@media all and (max-width: 1024px)
+{
+	.inscrire
+	{
+		margin-left: 150px;
+		width: 140px;
+		height: 35px;
+		font-size: 0.7em;
+		background-color: rgb(124, 249, 0);
+	}
+
+	.bouton
+	{
+		display: flex;
+		margin-top: 8px;
+		margin-left: 146px; 
+	}
+
+	#pays
+	{
+		width: 95px;
+		height: 30px;
+	}
+
+}
