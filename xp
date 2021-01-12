@@ -1,0 +1,19 @@
+var xp = 0;
+var level = 1;
+
+window.onload = function() {
+ 
+ document.getElementById("xp").innerHTML = 'XP: ' + xp;
+ document.getElementById("level").innerHTML = 'Current level: ' + level;
+}
+
+function giveExp(number){
+ 
+document.getElementById("xp").innerHTML = 'XP: ' + xp;
+}
+
+
+if (xp > 150 && xp < 450) {
+ level = level + 1;
+ document.getElementById("level").innerHTML = 'Current level: ' + level;
+}
