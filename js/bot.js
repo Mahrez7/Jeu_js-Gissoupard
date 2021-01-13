@@ -7,7 +7,7 @@ export class Bot{
         this.adversary = player;
     }
     play(){
-        if(this.type == new Wizard('Adversary')){
+        if(this.type.type == "wizard"){
             if(this.type.player.x >=player.x && player.x-this.type.player.x >= player.image.width){
                 this.type.player.attacking(this.adversary)
             } else {
@@ -17,7 +17,7 @@ export class Bot{
                     this.type.player.move_left();
                 };
             };
-        } else if(this.type == new Giant('Adversary')){
+        } else if(this.type.type == "giant"){
             if(this.type.player.x <=player.x && player.x-this.type.player.x <= player.image.width){
                 this.type.player.attacking(player)
             } else {
@@ -27,7 +27,7 @@ export class Bot{
                     this.type.player.move_left();
                 };
             };
-        } else if(this.type == new Warrior('Adversary')){
+        } else if(this.type.type == "warrior"){
             if(this.type.player.x <=player.x && player.x-this.type.player.x <= player.image.width){
                 this.type.player.attacking(player)
             } else {
@@ -37,7 +37,7 @@ export class Bot{
                     this.type.player.move_left();
                 };
             };
-        } else if(this.type == new Picasso('Adversary')){
+        } else if(this.type.type == "picasso"){
             if(this.type.player.x <=player.x && player.x-this.type.player.x <= player.image.width){
                 this.type.player.attacking(player)
             } else {
@@ -47,7 +47,7 @@ export class Bot{
                     this.type.player.move_left();
                 };
             };
-        } else if(this.type == new Ninja('Adversary')){
+        } else if(this.type.type == "ninja"){
             if(this.type.player.x <=player.x && player.x-this.type.player.x <= player.image.width){
                 this.type.player.attacking(player)
             } else {
@@ -57,7 +57,7 @@ export class Bot{
                     this.type.player.move_left();
                 };
             };
-        } else if(this.type == new Yelen('Adeversary')){
+        } else if(this.type.type == "yelen"){
             if(this.type.player.x <=player.x && player.x-this.type.player.x <= player.image.width){
                 this.type.player.attacking(player)
             } else {
@@ -67,7 +67,7 @@ export class Bot{
                     this.type.player.move_left();
                 };
             };
-        } else if(this.type == new Manipulator('Adeversary')){
+        } else if(this.type.type == "mainpulator"){
             if(this.type.player.x <=player.x && player.x-this.type.player.x <= player.image.width){
                 this.type.player.attacking(player)
             } else {
