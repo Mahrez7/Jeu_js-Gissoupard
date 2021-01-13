@@ -8,12 +8,12 @@ window.onload = function() {
 }
 
 function giveExp(number){
-
-document.getElementById("xp").innerHTML = 'XP: ' + xp;
+ xp+=number;
+ document.getElementById("xp").innerHTML = 'XP: ' + xp;
 }
 
 
 if (xp > 150 && xp < 450) {
- level = level + 1;
+ level += 1;
  document.getElementById("level").innerHTML = 'Current level: ' + level;
 }
