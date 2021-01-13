@@ -48,48 +48,56 @@ export class Giant{
     constructor(name){
         this.player = new Player(250,5,15);
         this.player.name = name;
+        this.type = "giant"
     };
 
 };
 export class Manipulator{
     constructor(name){
         this.player = new Player(100,20,10);
-        this.name = name;
+        this.player.name = name;
+        this.type = "manipulator"
     };
 };
 export class Clown{
     constructor(name){
         this.player = new Player(100,20,10);
-        this.name = name;
+        this.player.name = name;
+        this.type = "clown"
     };
 };
 export class Picasso{
     constructor(name){
         this.player = new Player(100,20,20);
-        this.name = name;
+        this.player.name = name;
+        this.type = "picasso"
     };
 };
 export class Yelen{
     constructor(name){
         this.player = new Player(100,20,10);
-        this.name = name;
+        this.player.name = name;
+        this.type = "yelen"
     };
 };
 export class Wizard{
     constructor(name){
         this.player = new Player(100,10,10);
         this.player.name = name;
+        this.type = "wizard"
     };
 };
 export class Warrior{
     constructor(name){
         this.player = new Player(100,10,10);
         this.player.name = name;
+        this.type = "warrior"
     };
 };
 export class Ninja{
     constructor(name){
         this.player = new Player(50,5,20);
         this.player.name = name;
+        this.type = "ninja"
     };
 };
